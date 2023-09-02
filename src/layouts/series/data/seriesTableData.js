@@ -28,7 +28,7 @@ export default function Data() {
   };
 
   const SeriesName = ({ seriesName }) => (
-    <MDBox display="flex" alignItems="center" lineHeight={1}>
+    <MDBox display="flex" alignItems="left" lineHeight={1}>
       <MDBox ml={2} lineHeight={1}>
         <MDTypography
           // display="block" variant="button" fontWeight="medium"

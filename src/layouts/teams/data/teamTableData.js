@@ -39,7 +39,12 @@ export default function Data(props) {
 
   const TeamId = ({ teamId }) => (
     <MDBox ml={2} lineHeight={1}>
-      <MDTypography display="block" variant="button" fontWeight="medium">
+      <MDTypography 
+      display="block"
+      variant="caption"
+      color="text"
+      fontWeight="medium"
+      >
         {teamId}
       </MDTypography>
     </MDBox>
